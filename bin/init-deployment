@@ -8,5 +8,4 @@ cat "config.production.json"
 
 bin/wait-for-db
 
-# knex-migrator init --mgpath node_modules/ghost
-knex-migrator migrate --v 4.8 --force
+knex-migrator init --mgpath node_modules/ghost
