@@ -1,1 +1,1 @@
-knex-migrator migrate
+knex-migrator migrate --v 4.8 --force --mgpath node_modules/ghost
