@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "casper": "github:TryGhost/Casper#main",
-    "ghost": "^4.8.0",
+    "ghost": "^4.7.0",
     "ghost-storage-adapter-s3": "^2.8.0",
     "ghost-storage-cloudinary": "^2.1.5",
     "lyra": "github:TryGhost/Lyra#main",
@@ -31,6 +31,6 @@
   },
   "scripts": {
     "start": "node thelovekesh.js",
-    "postinstall": "bash bin/cloudinary.sh && bash bin/aws-s3.sh && bash bin/themes.sh && bash bin/migrate.sh"
+    "postinstall": "bash bin/cloudinary.sh && bash bin/aws-s3.sh && bash bin/themes.sh"
   }
 }
